@@ -19,9 +19,3 @@
 # [build]
 #   command = "python3 build.py"
 #   publish = "."
-
-# Send visitors to a proper 404 page rather than a blank one.
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
