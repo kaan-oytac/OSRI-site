@@ -1,0 +1,7 @@
+group: Housing, community & economy
+question: How seasonal is employment in the Okanagan compared with the rest of B.C., and is the summer peak getting sharper?
+dataset: Statistics Canada Labour Force Survey, Thompson-Okanagan economic region, monthly
+method: Seasonal amplitude by year; compare with provincial series
+tier: Green
+---
+Tourism and agriculture make the valley's labour market unusually seasonal.

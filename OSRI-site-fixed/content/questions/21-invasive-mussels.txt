@@ -1,0 +1,7 @@
+group: Water, lake & land
+question: How many watercraft were intercepted carrying invasive mussels at B.C. inspection stations each year, and where were they coming from?
+dataset: B.C. Invasive Mussel Defence Program annual reports; Okanagan Basin Water Board <em>Don't Move a Mussel</em> materials
+method: Descriptive time series; origin-province breakdown
+tier: Green
+---
+Zebra and quagga mussels would permanently change the lake. The inspection program publishes its numbers.

@@ -1,0 +1,7 @@
+group: Housing, community & economy
+question: How did the ordered evacuation population grow hour by hour during the August 2023 McDougall Creek fire?
+dataset: Central Okanagan Emergency Operations evacuation orders and alerts (archived bulletins); Statistics Canada dissemination area populations
+method: Join order polygons to dissemination area populations; cumulative timeline
+tier: Green
+---
+Emergency orders are public records with timestamps. Reconstructing the timeline is real, publishable work.

@@ -1,0 +1,11 @@
+title: Anthropomorphism of AI and Use Intensity as Mediating Variables in Adolescents’ Expectations for Human Relationships
+author: Kaan Martin Oytac
+school: Okanagan Mission Secondary (OKM)
+grade: 11
+date: 2026-09-27
+format: paper
+type: original-data
+pdf: files/2026-AI-Anthropomorphism.pdf
+note: Reviewed and deemed ready for publication by Dr. Jonthon Coulson. The author is OSRI's Founding Editor and took no part in the decision on this paper.
+---
+<p>Adolescence is a developmental period in which internal working models of relationships are actively revised, making teens disproportionately sensitive to the relational environments they inhabit. AI companions, which are much more available, consistently validating, and conflict-avoidant than humans, now make up a significant portion of adolescents’ social life. This paper asks and contributes to answering the question of whether AI use predicts shifts in adolescents’ expectations from their other relationships across four dimensions—availability, emotional validation, conflict tolerance, and honesty. Furthermore, the paper seeks to determine whether this observation is influenced by the anthropomorphization of AIs. By investigating attachment theory, research on AI-mediated social cognition, literature on chatbots and human relationships, and a Canadian high school’s student population via a survey, this cross-sectional mixed-methods study (1) formulates five hypotheses (H1-H5) and (2) creates its own measure of AI anthropomorphism by extending the RoPE scale. It then (3) tests hypotheses among a student body (N = 23) and (4) builds plausible explanations behind important findings. Results show a striking split between users and non-users: users rated their expectations for AI’s availability indistinguishably from family members, while non-users rated it the lowest out of any counterpart. Additionally, users' expectations of AI were considerably higher than non-users. Despite significant changes in expectations for AI, however, there was only a negligible change with expectations for human counterparts between users and non-users. These findings may help inform digital literacy curricula, parental guidance around AI use, and the ethical design of conversational AI systems accessible to adolescents.</p>

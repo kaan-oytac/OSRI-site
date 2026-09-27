@@ -1,0 +1,7 @@
+group: Wildfire, air & climate
+question: How has the area burned within 20&nbsp;km of Kelowna changed by decade, and does the 2003-2023 pattern differ from 1950-2000?
+dataset: BC Wildfire Service historical fire perimeters (B.C. Data Catalogue)
+method: GIS buffer and area sum by decade (QGIS is free)
+tier: Green
+---
+The historical fire perimeter layer goes back decades and is free to download.

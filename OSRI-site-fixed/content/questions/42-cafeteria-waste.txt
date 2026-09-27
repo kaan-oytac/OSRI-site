@@ -1,0 +1,7 @@
+group: School, behaviour & daily life
+question: How much post-consumer food waste does one school cafeteria produce in a week, and which items dominate?
+dataset: Direct measurement; comparison figures from Metro Vancouver and City of Kelowna waste composition studies
+method: Daily weighed counts; category breakdown
+tier: Green
+---
+A weighing scale and permission from the cafeteria manager are all this needs.

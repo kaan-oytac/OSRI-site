@@ -1,0 +1,41 @@
+<!-- title: Publications — Okanagan Student Research Initiative -->
+<!-- description: Papers and mini-papers by secondary school students in the Okanagan Valley, reviewed and published by OSRI. -->
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Student work</p>
+    <h1>Publications</h1>
+    <p>Every accepted manuscript is hosted here permanently. Papers and mini-papers are listed by date within their section; outstanding work is occasionally noted as an editor's selection but is not ranked.</p>
+  </div>
+
+  <div class="filters" data-filter-for="pubs" role="group" aria-label="Filter by type of study">
+    <span>Filter</span>
+    <button type="button" data-tag="all" aria-pressed="true">All</button>
+    <button type="button" data-tag="review" aria-pressed="false">Literature review</button>
+    <button type="button" data-tag="public-data" aria-pressed="false">Public dataset study</button>
+    <button type="button" data-tag="original-data" aria-pressed="false">Original data</button>
+  </div>
+
+  <div id="pubs">
+    <p data-empty hidden class="muted">No publications match this filter yet.</p>
+
+    <div class="section-title" id="papers">
+      <h2>Papers</h2>
+      <a href="guidelines.html#papers">What counts as a paper &rarr;</a>
+    </div>
+{{papers}}
+
+    <div class="section-title" id="mini-papers">
+      <h2>Mini-papers</h2>
+      <a href="guidelines.html#mini-papers">What counts as a mini-paper &rarr;</a>
+    </div>
+{{mini-papers}}
+  </div>
+
+  <div class="section-title" id="datasets">
+    <h2>Student-produced datasets</h2>
+  </div>
+  <div class="panel" style="margin-bottom: 3.5rem;">
+    <p><strong>Not yet open.</strong> OSRI plans to archive cleaned, de-identified datasets produced by student authors so that future students can build on them. Until the archive opens, authors may attach a data appendix to a paper submission; see the <a href="guidelines.html#after">guidelines</a> for what may be shared.</p>
+  </div>
+</div>
+<script src="js/filter.js"></script>

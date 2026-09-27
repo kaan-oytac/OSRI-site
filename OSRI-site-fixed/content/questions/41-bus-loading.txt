@@ -1,0 +1,7 @@
+group: School, behaviour & daily life
+question: How full are the buses on the main school-serving routes at 8 a.m., and does it change between September and January?
+dataset: Direct passenger counts at a stop; BC Transit route schedules for the Kelowna Regional or Vernon Regional system
+method: Repeated counts on matched weekdays; report the counting protocol in full
+tier: Green (public observation)
+---
+Observational counts in a public setting: no participants, no consent burden.

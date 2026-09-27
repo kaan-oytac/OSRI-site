@@ -1,0 +1,24 @@
+# This file is ignored by the build because its name starts with an underscore.
+# To add a publication: copy this file, rename it (e.g. 2026-10-03-my-paper.txt),
+# and fill it in. Delete these comment lines.
+#
+# Required: title, date, format, type
+# Optional: author, school, grade, pdf, featured, note
+#
+# NOTE ON pdf: it is a PATH, not just a file name. The PDF lives in the files
+# folder, so the line must start with "files/" -- like this:
+#     pdf: files/2026-my-paper.pdf
+# NOT: pdf: 2026-my-paper.pdf
+
+title: The Full Title of the Paper, Capitalised Like a Title
+author: First Last
+school: Name of Secondary School
+grade: 12
+date: 2026-10-03
+format: paper
+type: public-data
+pdf: files/2026-my-paper.pdf
+---
+The abstract goes here, after the three dashes. One paragraph. Say what question
+the paper asks, what data it used, and what it found. You can use simple HTML
+such as <em>italics</em> or PM<sub>2.5</sub>.

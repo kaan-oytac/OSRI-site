@@ -1,0 +1,8 @@
+group: School, behaviour & daily life
+group-note: Questions in this group involve human participants. Only designs that meet the <a href="guidelines.html#ethics">green tier</a> are listed here: anonymous, non-sensitive, and collected with informed consent. Mental health, substance use and other <a href="guidelines.html#ethics">red-tier</a> topics are not accepted.
+question: How does self-reported study location (home, library, school, caf&eacute;) relate to self-reported weekly study hours among senior students?
+dataset: Anonymous survey designed by the student; OSRI can supply a template consent statement
+method: Cross-tabulation; report counts, not just percentages
+tier: Green (anonymous, non-sensitive)
+---
+Simple, anonymous, and genuinely useful to a school's library.

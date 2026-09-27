@@ -1,0 +1,7 @@
+group: Housing, community & economy
+question: Is the 20-29 age cohort in the Kelowna metropolitan area shrinking faster than the provincial average, and does that track rental vacancy?
+dataset: Statistics Canada Census Profile (2016, 2021) for the Kelowna CMA; CMHC Rental Market Survey vacancy and average rent
+method: Cohort comparison across census years; plot against vacancy rate
+tier: Green
+---
+A question that Okanagan graduates feel personally and that public data can actually answer.

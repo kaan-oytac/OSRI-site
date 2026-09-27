@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Questions — Okanagan Student Research Initiative</title>
+  <meta name="description" content="Open research questions about the Okanagan Valley, each matched with a public dataset or source and an ethics tier.">
+  <link rel="canonical" href="https://osri.ca/questions.html">
+
+  <!-- How the page looks when the link is shared in a message, an email
+       preview, or on social media. Without these it shows as a bare URL. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Okanagan Student Research Initiative">
+  <meta property="og:title" content="Research Questions — Okanagan Student Research Initiative">
+  <meta property="og:description" content="Open research questions about the Okanagan Valley, each matched with a public dataset or source and an ethics tier.">
+  <meta property="og:url" content="https://osri.ca/questions.html">
+  <meta property="og:image" content="https://osri.ca/assets/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Okanagan Student Research Initiative">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Research Questions — Okanagan Student Research Initiative">
+  <meta name="twitter:description" content="Open research questions about the Okanagan Valley, each matched with a public dataset or source and an ethics tier.">
+  <meta name="twitter:image" content="https://osri.ca/assets/social.jpg">
+
+  <link rel="icon" href="assets/seal.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="utility">
+  <div class="wrap">
+    <span>Okanagan Valley, British Columbia</span>
+    <nav aria-label="Utility">
+      <a href="about.html#contact">Contact</a>
+      <a href="about.html#join">Join OSRI</a>
+      <a href="submit.html">Submit work</a>
+    </nav>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <img class="seal" src="assets/seal.png" alt="" width="84" height="89">
+    <a class="wordmark" href="index.html">
+      <span class="name">Okanagan Student Research Initiative</span>
+      <span class="place">Student-led research, reviewed and published</span>
+    </a>
+  </div>
+</header>
+
+<nav class="primary-nav" aria-label="Primary">
+  <div class="wrap">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="questions.html" aria-current="page">Research Questions</a></li>
+        <li><a href="guidelines.html">Guidelines</a></li>
+        <li><a href="submit.html">Submit</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="guilloche-rule" role="presentation"></div>
+
+<main id="main">
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Question bank</p>
+    <h1>Research questions</h1>
+    <p>Every question below is matched with at least one dataset or source that a student can actually obtain, a suggested method, and the ethics tier it would fall under. Questions are starting points: narrow them, combine them, or propose your own.</p>
+  </div>
+
+  <div class="two-col">
+    <div>
+
+      <div class="rq-group" id="wildfire-air-climate">
+        <h2>Wildfire, air & climate</h2>
+        <article class="rq">
+          <div>
+            <h3>How many instructional days in the Central Okanagan fell under a wildfire smoke advisory each year since 2017, and did attendance change on those days?</h3>
+            <p>The valley has had a major smoke season most years since 2017. Nobody has published a school-level count.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Source</dt><dd>B.C. Ministry of Environment air quality archive (hourly PM<sub>2.5</sub>, Kelowna College station); Central Okanagan Public Schools attendance summaries, on request</dd>
+            <dt>Method</dt><dd>Count days over the 24-hour PM<sub>2.5</sub> objective; compare attendance to the same weekday in non-smoke weeks</dd>
+            <dt>Ethics tier</dt><dd>Green (aggregate public data)</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>Has the first frost date in Kelowna, Vernon and Penticton moved later over the past 50 years, and by how much?</h3>
+            <p>A clean, answerable climate question with three long station records to compare.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Environment and Climate Change Canada historical climate data (daily minimum temperature, all three stations)</dd>
+            <dt>Method</dt><dd>Extract first date below 0&nbsp;&deg;C each autumn; linear trend with a confidence interval</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>How has the area burned within 20&nbsp;km of Kelowna changed by decade, and does the 2003-2023 pattern differ from 1950-2000?</h3>
+            <p>The historical fire perimeter layer goes back decades and is free to download.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>BC Wildfire Service historical fire perimeters (B.C. Data Catalogue)</dd>
+            <dt>Method</dt><dd>GIS buffer and area sum by decade (QGIS is free)</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+      </div>
+
+      <div class="rq-group" id="water-lake-land">
+        <h2>Water, lake & land</h2>
+        <article class="rq">
+          <div>
+            <h3>How closely do Okanagan Lake summer levels track the previous winter's snowpack, and has that relationship weakened?</h3>
+            <p>Lake level is managed, so the answer is less obvious than it sounds.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Water Survey of Canada lake level record for Okanagan Lake at Kelowna; B.C. River Forecast Centre snow survey bulletins (Mission Creek and Brenda Mines stations)</dd>
+            <dt>Method</dt><dd>Correlation of 1 April snow water equivalent with peak lake level, by decade</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>How many watercraft were intercepted carrying invasive mussels at B.C. inspection stations each year, and where were they coming from?</h3>
+            <p>Zebra and quagga mussels would permanently change the lake. The inspection program publishes its numbers.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>B.C. Invasive Mussel Defence Program annual reports; Okanagan Basin Water Board <em>Don't Move a Mussel</em> materials</dd>
+            <dt>Method</dt><dd>Descriptive time series; origin-province breakdown</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>What share of the Okanagan's agricultural land has moved from orchards to vineyards since 1990, and where?</h3>
+            <p>A land-use story visible from any highway and quantifiable from public agriculture data.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Statistics Canada Census of Agriculture (Okanagan-Similkameen and Central Okanagan regional districts); B.C. Ministry of Agriculture tree fruit and grape acreage reports</dd>
+            <dt>Method</dt><dd>Acreage comparison by census year; map by regional district</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+      </div>
+
+      <div class="rq-group" id="housing-community-economy">
+        <h2>Housing, community & economy</h2>
+        <article class="rq">
+          <div>
+            <h3>Is the 20-29 age cohort in the Kelowna metropolitan area shrinking faster than the provincial average, and does that track rental vacancy?</h3>
+            <p>A question that Okanagan graduates feel personally and that public data can actually answer.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Statistics Canada Census Profile (2016, 2021) for the Kelowna CMA; CMHC Rental Market Survey vacancy and average rent</dd>
+            <dt>Method</dt><dd>Cohort comparison across census years; plot against vacancy rate</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>How seasonal is employment in the Okanagan compared with the rest of B.C., and is the summer peak getting sharper?</h3>
+            <p>Tourism and agriculture make the valley's labour market unusually seasonal.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Statistics Canada Labour Force Survey, Thompson-Okanagan economic region, monthly</dd>
+            <dt>Method</dt><dd>Seasonal amplitude by year; compare with provincial series</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>How did the ordered evacuation population grow hour by hour during the August 2023 McDougall Creek fire?</h3>
+            <p>Emergency orders are public records with timestamps. Reconstructing the timeline is real, publishable work.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Central Okanagan Emergency Operations evacuation orders and alerts (archived bulletins); Statistics Canada dissemination area populations</dd>
+            <dt>Method</dt><dd>Join order polygons to dissemination area populations; cumulative timeline</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+      </div>
+
+      <div class="rq-group" id="school-behaviour-daily-life">
+        <h2>School, behaviour & daily life</h2>
+        <p class="muted">Questions in this group involve human participants. Only designs that meet the <a href="guidelines.html#ethics">green tier</a> are listed here: anonymous, non-sensitive, and collected with informed consent. Mental health, substance use and other <a href="guidelines.html#ethics">red-tier</a> topics are not accepted.</p>
+        <article class="rq">
+          <div>
+            <h3>How does self-reported study location (home, library, school, caf&eacute;) relate to self-reported weekly study hours among senior students?</h3>
+            <p>Simple, anonymous, and genuinely useful to a school's library.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Source</dt><dd>Anonymous survey designed by the student; OSRI can supply a template consent statement</dd>
+            <dt>Method</dt><dd>Cross-tabulation; report counts, not just percentages</dd>
+            <dt>Ethics tier</dt><dd>Green (anonymous, non-sensitive)</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>How full are the buses on the main school-serving routes at 8 a.m., and does it change between September and January?</h3>
+            <p>Observational counts in a public setting: no participants, no consent burden.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Source</dt><dd>Direct passenger counts at a stop; BC Transit route schedules for the Kelowna Regional or Vernon Regional system</dd>
+            <dt>Method</dt><dd>Repeated counts on matched weekdays; report the counting protocol in full</dd>
+            <dt>Ethics tier</dt><dd>Green (public observation)</dd>
+          </dl>
+        </article>
+        <article class="rq">
+          <div>
+            <h3>How much post-consumer food waste does one school cafeteria produce in a week, and which items dominate?</h3>
+            <p>A weighing scale and permission from the cafeteria manager are all this needs.</p>
+            
+          </div>
+          <dl class="dataset">
+            <dt>Dataset</dt><dd>Direct measurement; comparison figures from Metro Vancouver and City of Kelowna waste composition studies</dd>
+            <dt>Method</dt><dd>Daily weighed counts; category breakdown</dd>
+            <dt>Ethics tier</dt><dd>Green</dd>
+          </dl>
+        </article>
+      </div>
+
+    </div>
+
+    <aside class="sidebar" aria-label="Question bank notes">
+      <section>
+        <h3>Propose a question</h3>
+        <p>Have a question the bank should include? Send it with a source you have already located. Accepted proposals are credited to the student who submitted them.</p>
+        <p><a href="#suggest">Use the suggestion form &rarr;</a></p>
+      </section>
+      <section>
+        <h3>Working with public data</h3>
+        <ul class="links">
+          <li><a href="https://catalogue.data.gov.bc.ca/" rel="noopener">B.C. Data Catalogue</a></li>
+          <li><a href="https://www12.statcan.gc.ca/census-recensement/index-eng.cfm" rel="noopener">Statistics Canada Census</a></li>
+          <li><a href="https://climate.weather.gc.ca/" rel="noopener">Historical climate data (ECCC)</a></li>
+          <li><a href="https://www.obwb.ca/" rel="noopener">Okanagan Basin Water Board</a></li>
+          <li><a href="https://opendata.kelowna.ca/" rel="noopener">City of Kelowna Open Data</a></li>
+        </ul>
+      </section>
+      <section>
+        <div class="notice">
+          <h4>Research involving Indigenous communities</h4>
+          <p>Questions about the Syilx Okanagan Nation, its lands, language or members are not listed here. Such research requires engagement with the Nation before it begins; see <a href="guidelines.html#ethics">the ethics standard</a>.</p>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <section id="suggest" class="suggest">
+    <div class="section-title">
+      <h2>Suggest a research question</h2>
+    </div>
+    <p>Students can add to this bank. Send a question you think is worth answering and, if it is accepted, it is published here credited to you by name and school. You do not have to answer it yourself.</p>
+    <p><strong>One requirement:</strong> name a dataset or source where the data could actually be found. A question nobody can get data for is not yet a research question, and finding the source is most of the skill.</p>
+
+    <form class="formal" name="question-suggestion" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
+      <input type="hidden" name="form-name" value="question-suggestion">
+      <p class="honeypot"><label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="sq-name">Your name</label>
+          <input type="text" id="sq-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="sq-email">Email</label>
+          <input type="email" id="sq-email" name="email" autocomplete="email" required>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="sq-school">School</label>
+          <input type="text" id="sq-school" name="school" required>
+        </div>
+        <div class="field">
+          <label for="sq-grade">Grade</label>
+          <select id="sq-grade" name="grade" required>
+            <option value="">Select</option>
+            <option>9</option><option>10</option><option>11</option><option>12</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="sq-question">The question</label>
+        <p class="hint">Write it as a question, specific enough that an answer would be a number, a trend or a comparison. "Is the lake getting warmer?" is a topic; "How has August surface temperature in Okanagan Lake changed from 1990 to 2026?" is a question.</p>
+        <textarea id="sq-question" name="question" required></textarea>
+      </div>
+      <div class="field">
+        <label for="sq-source">Dataset or source</label>
+        <p class="hint">Where would the data come from? A link, a report, an agency, or "I would collect it by&hellip;". Required for questions that need data analysis by the student to obtain a conclusion.</p>
+        <textarea id="sq-source" name="source" required></textarea>
+      </div>
+      <div class="field">
+        <label for="sq-why">Why it matters</label>
+        <p class="hint">Two or three sentences. What would we know that we do not know now?</p>
+        <textarea id="sq-why" name="why"></textarea>
+      </div>
+      <label class="choice"><input type="checkbox" id="sq-credit" name="credit" value="yes" checked> <span>Credit me by name and school if this question is published.</span></label>
+      <p class="form-privacy">We use your email only to reply about this submission. It is never published. See the <a href="privacy.html">privacy notice</a>.</p>
+      <button class="btn" type="submit">Send suggestion</button>
+    </form>
+  </section>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="brand">
+        <span class="name">Okanagan Student Research Initiative</span>
+        <p>A student-run venue for secondary school research in the Okanagan Valley. OSRI suggests research questions matched to real datasets, reviews manuscripts against a published ethics standard, and hosts the finished work online at no cost to authors.</p>
+        <p><strong>OSRI ethics review is not IRB or REB approval</strong> and does not substitute for it.</p>
+      </div>
+      <div>
+        <h3>Initiative</h3>
+        <ul>
+          <li><a href="about.html">About OSRI</a></li>
+          <li><a href="about.html#panel">Ethics Review Panel</a></li>
+          <li><a href="about.html#join">Join OSRI</a></li>
+          <li><a href="about.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Publish</h3>
+        <ul>
+          <li><a href="guidelines.html">Submission guidelines</a></li>
+          <li><a href="guidelines.html#ethics">Ethics standard</a></li>
+          <li><a href="guidelines.html#ai">AI disclosure policy</a></li>
+          <li><a href="consent.html">Consent templates</a></li>
+          <li><a href="submit.html">Submit a manuscript</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Browse</h3>
+        <ul>
+          <li><a href="publications.html#papers">Papers</a></li>
+          <li><a href="publications.html#mini-papers">Mini-papers</a></li>
+          <li><a href="questions.html">Research questions</a></li>
+          <li><a href="questions.html#suggest">Suggest a question</a></li>
+          <li><a href="credits.html">Image credits</a></li>
+        </ul>
+      </div>
+    </div>
+    <img class="fleuron" src="assets/ornaments/laurel-divider.svg" alt="" width="340" height="42">
+    <div class="footer-legal">
+      <p>&copy; 2026 Okanagan Student Research Initiative. Published work is licensed CC BY 4.0 unless otherwise stated. <a href="privacy.html">Privacy</a></p>
+      <p>OSRI operates on the unceded territory of the Syilx Okanagan people.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

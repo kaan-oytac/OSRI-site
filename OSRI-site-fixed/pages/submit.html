@@ -1,0 +1,164 @@
+<!-- title: Submit — Okanagan Student Research Initiative -->
+<!-- description: Submit a paper or mini-paper to OSRI for ethics and content review. -->
+<div class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">For authors</p>
+    <h1>Submit a manuscript</h1>
+    <p>Submissions are accepted year-round from students enrolled at a secondary school in the Okanagan Valley. There is no fee. First decisions are sent within four weeks of a complete submission.</p>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <!-- Submissions arrive in the Netlify dashboard under Forms, and by email
+           if you turn on notifications. See PUBLISHING.md. -->
+      <form class="formal" name="manuscript" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html" id="submission-form">
+        <input type="hidden" name="form-name" value="manuscript">
+        <p class="honeypot"><label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+        <fieldset>
+          <legend>Author</legend>
+          <div class="field-row">
+            <div class="field">
+              <label for="author-name">Full name</label>
+              <input type="text" id="author-name" name="author_name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="author-email">Email</label>
+              <input type="email" id="author-email" name="author_email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="author-school">School</label>
+              <input type="text" id="author-school" name="author_school" required>
+            </div>
+            <div class="field">
+              <label for="author-grade">Grade</label>
+              <select id="author-grade" name="author_grade" required>
+                <option value="">Select</option>
+                <option>9</option><option>10</option><option>11</option><option>12</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="coauthors">Co-authors, if any</label>
+            <p class="hint">Name, school and grade for each. Each co-author must have contributed materially.</p>
+            <input type="text" id="coauthors" name="coauthors">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Manuscript</legend>
+          <div class="field">
+            <label for="ms-title">Title</label>
+            <input type="text" id="ms-title" name="title" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="ms-format">Format</label>
+              <select id="ms-format" name="format" required>
+                <option value="">Select</option>
+                <option value="paper">Paper (1,500&ndash;4,000 words)</option>
+                <option value="mini">Mini-paper (1&ndash;3 paragraphs)</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="ms-type">Study type</label>
+              <select id="ms-type" name="study_type" required>
+                <option value="">Select</option>
+                <option value="review">Literature review</option>
+                <option value="public-data">Public dataset study</option>
+                <option value="original-data">Original data</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="ms-link">Link to manuscript</label>
+            <p class="hint">Ideally a shared Google Doc with comment access, or alternatively a PDF in a shared folder. Remove your name from the file itself.</p>
+            <input type="url" id="ms-link" name="manuscript_url" placeholder="https://" required>
+          </div>
+          <div class="field">
+            <label for="ms-abstract">Abstract or summary</label>
+            <p class="hint">250 words or fewer. For a mini-paper, one or two sentences.</p>
+            <textarea id="ms-abstract" name="abstract" required></textarea>
+          </div>
+          <div class="field">
+            <label for="ms-origin">Origin of the work</label>
+            <select id="ms-origin" name="origin">
+              <option value="independent">Independent project</option>
+              <option value="capstone">Grade 12 Capstone</option>
+              <option value="science-fair">Science fair entry</option>
+              <option value="course">Course assignment</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Ethics</legend>
+          <div class="field">
+            <label for="ethics-people">Did the study collect any data from people?</label>
+            <select id="ethics-people" name="human_participants" required>
+              <option value="">Select</option>
+              <option value="no">No: published sources or public datasets only</option>
+              <option value="yes">Yes</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="ethics-design">If yes, shortly summarize the study design</label>
+            <p class="hint">Who took part, how they were recruited, what they were asked, what was recorded, whether anything could identify them, how consent was obtained, and whether the school gave permission. The Ethics Review Panel assigns the tier from a corroboration of this description and the methodology section; see the <a href="guidelines.html#ethics">ethics standard</a>. You may respond with bullet points.</p>
+            <textarea id="ethics-design" name="ethics_design"></textarea>
+          </div>
+          <div class="field">
+            <label for="supervisor">Adult supervisor, if any</label>
+            <p class="hint">Name, role and email. Required for yellow-tier studies; the supervisor will be asked to co-sign.</p>
+            <input type="text" id="supervisor" name="supervisor">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>AI disclosure</legend>
+          <div class="field">
+            <label for="ai-statement">AI disclosure statement</label>
+            <p class="hint">Name each tool used, what it was used for, and how you verified its output. Write "None" if no AI tools were used. See the <a href="guidelines.html#ai">policy</a>.</p>
+            <textarea id="ai-statement" name="ai_statement" required></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Declaration</legend>
+          <label class="choice"><input type="checkbox" id="decl-original" name="decl_original" required> <span>This work is my own, has not been published elsewhere, and every source is cited.</span></label>
+          <label class="choice"><input type="checkbox" id="decl-guidelines" name="decl_guidelines" required> <span>I have read the <a href="guidelines.html">submission guidelines</a> and the <a href="guidelines.html#ethics">ethics standard</a>, and the description above is accurate.</span></label>
+          <label class="choice"><input type="checkbox" id="decl-licence" name="decl_licence" required> <span>If accepted, I agree to publication under a Creative Commons Attribution 4.0 licence. I keep copyright.</span></label>
+          <label class="choice"><input type="checkbox" id="decl-irb" name="decl_irb" required> <span>I understand that OSRI ethics review is not IRB or REB approval.</span></label>
+        </fieldset>
+
+        <p class="form-privacy">We use your email only to reply about this submission. It is never published. See the <a href="privacy.html">privacy notice</a>.</p>
+        <button class="btn" type="submit">Submit for review</button>
+      </form>
+    </div>
+
+    <aside class="sidebar" aria-label="Submission checklist">
+      <section>
+        <h3>Before you submit</h3>
+        <ul class="links">
+          <li><a href="guidelines.html#what">Within the word limit for the format</a></li>
+          <li><a href="guidelines.html#format">APA 7 references; no name in the file</a></li>
+          <li><a href="guidelines.html#format">Sample sizes reported with every percentage</a></li>
+          <li><a href="guidelines.html#ai">AI disclosure statement written</a></li>
+          <li><a href="guidelines.html#ethics">School permission obtained, if data was collected at school</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>What happens next</h3>
+        <p>You will receive an acknowledgement within one week. If anything is missing, the editor will tell you exactly what. A first decision follows within four weeks of a complete submission.</p>
+      </section>
+      <section>
+        <div class="notice">
+          <h4>Not sure which tier your study is?</h4>
+          <p>Describe the design in the ethics section as fully as you can. The panel assigns the tier; you do not need to decide. If you are unsure whether a topic is red-tier, ask before collecting any data.</p>
+          <p><a href="about.html#contact">Ask the panel &rarr;</a></p>
+        </div>
+      </section>
+    </aside>
+  </div>
+</div>
