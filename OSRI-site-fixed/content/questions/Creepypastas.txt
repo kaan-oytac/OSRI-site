@@ -1,0 +1,5 @@
+group: Literature and New Media
+question: How do collaborative, internet-born horror mythologies (such as the Slender Man or Backrooms lore) mimic or diverge from the structural frameworks of traditional 19th-century gothic folklore?
+dataset: None needed.
+method: Articulate the differences and similarities between modern creepypastas and 19th century folklore. Does what makes them scary differ? What about the backstories? Find and mention examples.
+tier: Green

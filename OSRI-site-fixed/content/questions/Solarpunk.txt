@@ -1,0 +1,8 @@
+group: Literature and New Media
+group-note: Questions here focus on literature and internet trends. They are quite flexible and so are their answers.
+question: How does emerging solarpunk literature (which focuses on sustainable, eco-optimistic futures) critically respond to the dominant tropes of young adult dystopian fiction (like The Hunger Games)?
+dataset: None needed.
+method: Research example works that incorporate the stated genres and look into the differences in how the world is presented. Ideally touch on how solarpunk goes beyond just expressing positivity.
+tier: Green
+---
+

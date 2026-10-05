@@ -1,0 +1,8 @@
+group: STEM
+group-note: Looking for inspiration for your scientific paper? This is the spot.
+question: What makes tardigrades so durable against life-threatening situations?
+dataset: None needed.
+method: Start by looking into trustable but more generalized articles, such as those from Britannica, on what tardigrades are. Then follow it up by examining research on tardigrades' survivability in experiments and what physical features or habits ensure their durability. 
+tier: Green
+---
+

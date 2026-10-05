@@ -1,0 +1,8 @@
+group: Linguistics
+group-note: This group houses research questions relating to languages.
+question: How do the naming conventions and descriptive adjectives used on menus in high-end restaurants differ from those used in fast-casual chains, and how do they mathematically correlate with menu pricing?
+dataset: Menus seen online or in person.
+method: Perform basic text analysis by coding for words like "artisanal," "infused," and "crispy," following it up by mapping those metrics against price points.
+tier: Green (Using public data)
+---
+Applies text analysis to real data.
