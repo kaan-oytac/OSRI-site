@@ -1,7 +1,0 @@
-group: Wildfire, air & climate
-question: Has the first frost date in Kelowna, Vernon and Penticton moved later over the past 50 years, and by how much?
-dataset: Environment and Climate Change Canada historical climate data (daily minimum temperature, all three stations)
-method: Extract first date below 0&nbsp;&deg;C each autumn; linear trend with a confidence interval
-tier: Green
----
-A clean, answerable climate question with three long station records to compare.

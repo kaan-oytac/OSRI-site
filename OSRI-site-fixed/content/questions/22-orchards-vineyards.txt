@@ -1,7 +1,0 @@
-group: Water, lake & land
-question: What share of the Okanagan's agricultural land has moved from orchards to vineyards since 1990, and where?
-dataset: Statistics Canada Census of Agriculture (Okanagan-Similkameen and Central Okanagan regional districts); B.C. Ministry of Agriculture tree fruit and grape acreage reports
-method: Acreage comparison by census year; map by regional district
-tier: Green
----
-A land-use story visible from any highway and quantifiable from public agriculture data.

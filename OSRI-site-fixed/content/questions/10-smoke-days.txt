@@ -1,7 +1,0 @@
-group: Wildfire, air & climate
-question: How many instructional days in the Central Okanagan fell under a wildfire smoke advisory each year since 2017, and did attendance change on those days?
-dataset: B.C. Ministry of Environment air quality archive (hourly PM<sub>2.5</sub>, Kelowna College station); Central Okanagan Public Schools attendance summaries, on request
-method: Count days over the 24-hour PM<sub>2.5</sub> objective; compare attendance to the same weekday in non-smoke weeks
-tier: Green (aggregate public data)
----
-The valley has had a major smoke season most years since 2017. Nobody has published a school-level count.

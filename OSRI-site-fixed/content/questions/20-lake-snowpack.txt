@@ -1,7 +1,0 @@
-group: Water, lake & land
-question: How closely do Okanagan Lake summer levels track the previous winter's snowpack, and has that relationship weakened?
-dataset: Water Survey of Canada lake level record for Okanagan Lake at Kelowna; B.C. River Forecast Centre snow survey bulletins (Mission Creek and Brenda Mines stations)
-method: Correlation of 1 April snow water equivalent with peak lake level, by decade
-tier: Green
----
-Lake level is managed, so the answer is less obvious than it sounds.
