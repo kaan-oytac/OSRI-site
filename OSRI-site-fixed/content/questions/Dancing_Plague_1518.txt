@@ -1,0 +1,6 @@
+group: Historical
+group-note: This section features questions relating to past events, often niche ones, for students to research. The questions here do not incorporate anything relating to human subjects.
+question: What was the dancing plague of 1518? A short, overarching review.
+dataset: None needed.
+method: Find secondary sources to gain an overall idea of what the event was, and then dive into primary sources cited within secondary sources.
+tier: Green
